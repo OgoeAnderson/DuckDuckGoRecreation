@@ -1,0 +1,76 @@
+.body {
+  font-family: "Oswald", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.content-info__logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 0.8em;
+  margin-top: -1.25em;
+}
+
+.search_form_input_homepage {
+  align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5%;
+}
+
+.search {
+  position: absolute;
+  top: 508;
+  left: 508;
+  transform: translate (-508, -508);
+  background: black;
+  padding: 30px;
+  border-radius: 65px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.submit {
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.search-txt {
+  width: 0;
+  font-size: 36px;
+  border: none;
+  background: transparent;
+  outline: none;
+  transition: 1s;
+}
+
+.placeholder {
+  color: rgba (0, 0, 0, 0.252);
+}
+
+.active {
+  background: white;
+}
+
+.active .submit {
+  color: black;
+  float: right;
+}
+.active .search-txt {
+  width: 350px;
+  padding: 0 20px;
+}
